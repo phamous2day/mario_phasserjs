@@ -1,5 +1,7 @@
 import Phaser from 'Phaser'
-import GameOver from './scenes/GameOver.js'
+
+import Game from './scenes/Game.js'
+
 import './assets/scss/index.scss'
 
 const config = {
@@ -20,8 +22,7 @@ const config = {
         }
     },
     scene: [
-        Game,
-        GameOver
+        Game
     ]
 };
 
