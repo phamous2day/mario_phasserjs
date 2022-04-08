@@ -1,5 +1,4 @@
-import Phaser from 'Phaser'
-import Game from './scenes/Game.js'
+<script src="https://cdn.jsdelivr.net/npm/phaser@3.54.0/dist/phaser.js"></script>import Game from './scenes/Game.js'
 import GameOver from './scenes/GameOver.js'
 import './assets/scss/index.scss'
 
